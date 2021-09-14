@@ -10,8 +10,7 @@ In ResNets, a `shortcut` or a `skip connection` allows the gradient to be direct
 
 ## The identity block
 The identity block is the standard block used in ResNets, and corresponds to the case where the input activation has the same dimension as the output activation . To flesh out the different steps of what happens in a ResNet's identity block, here is an alternative diagram showing the individual steps:<br>
-![image]
-(https://github.com/Junliang-liu-kit/Resnet-50/raw/master/image/Identityblock.png)
+![image](https://github.com/Junliang-liu-kit/Resnet-50/raw/master/image/Identityblock.png)
 <br>The upper path is the "shortcut path." The lower path is the "main path." In this diagram, we have also made explicit the CONV2D and ReLU steps in each layer. To speed up training we have also added a BatchNorm step. 
 
 
