@@ -47,7 +47,7 @@ The following figure describes in detail the architecture of this neural network
 
 ## Conclusion
 the conclusion of the pretrained Resnet50:
-![image](/image/test accuracy.jpg)
+![image](/image/testaccuracy.png)
 
 
 # References
