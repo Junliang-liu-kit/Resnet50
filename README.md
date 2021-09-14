@@ -1,7 +1,7 @@
 Residual Networks
 ============
 
-In theory, very deep networks can represent very complex functions; but in practice, they are hard to train. Residual Networks., allow you to train much deeper networks than were previously practically feasible. introduced by [Resnet](https://arxiv.org/pdf/1512.03385.pdf)
+In theory, very deep networks can represent very complex functions; but in practice, they are hard to train. Residual Networks., allow you to train much deeper networks than were previously practically feasible. introduced by [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 
 # Building a Residual Network
 In ResNets, a `shortcut` or a `skip connection` allows the gradient to be directly backpropagated to earlier layers
