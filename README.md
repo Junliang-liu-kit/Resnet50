@@ -16,7 +16,7 @@ The identity block is the standard block used in ResNets, and corresponds to the
 
 ## The convolutional block
 the ResNet "convolutional block" is the other type of block. You can use this type of block when the input and output dimensions don't match up. The difference with the identity block is that there is a CONV2D layer in the shortcut path:
-![image](/image/convolutional block.jpg)
+![image](/image/convolutionalblock.jpg)
 <br>The CONV2D layer in the shortcut path is used to resize the input to a different dimension, so that the dimensions match up in the final addition needed to add the shortcut value back to the main path. For example, to reduce the activation dimensions's height and width by a factor of 2, you can use a 1x1 convolution with a stride of 2. The CONV2D layer on the shortcut path does not use any non-linear activation function. Its main role is to just apply a (learned) linear function that reduces the dimension of the input, so that the dimensions match up for the later addition step.
 
 ## Building the ResNet model (50 layers)
